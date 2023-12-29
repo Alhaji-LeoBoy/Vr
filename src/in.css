@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: larger;
+  line-height: 2;
+}
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.accordion {
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 2rem;
+}
+
+.item {
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+  max-width: 1000px;
+  background-color: #ffffff; /* Set background color */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Apply box shadow */
+}
+.item p {
+  display: inline;
+  position: relative;
+}
+.title {
+  padding-left: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.num {
+  font-size: x-large;
+  font-weight: bold;
+}
+.icon {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.item div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentBox {
+  padding-left: 45px;
+  text-wrap: balance;
+}
+
+.open {
+  border-top: 4px solid #04724d;
+  background-color: #ffb703;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.drowncontent {
+  background-color: #fdfdf9;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+.drowncontent a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+}
+
+label {
+  display: block;
+}
+
+.bb {
+  font-size: x-large;
+  color: black;
+  font-weight: bold;
+}
